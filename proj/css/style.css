@@ -1,0 +1,122 @@
+body {
+  position: relative; }
+
+.scrolled {
+  background-color: #210e8a !important; }
+
+@media (max-width: 1200px) {
+  .navbar-nav li {
+    font-size: 20px; } }
+@media (max-width: 992px) {
+  .navbar-toggler {
+    margin: 10px 0px 10px 30px;
+    background-color: #234688; }
+
+  .navbar-toggler:hover, .navbar-toggler:focus {
+    background-color: #1c80c4;
+    border-color: #17028f; }
+
+  .navbar-nav li a {
+    text-align: center; }
+
+  .navbar-nav li a:hover {
+    background-color: #4396f5; } }
+header .carousel-inner .carousel-item {
+  height: 95vh;
+  transition: transform 2s ease, opacity 0.5s ease-out; }
+  header .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 650px; }
+  header .carousel-inner .carousel-item div .carousel-caption {
+    padding-bottom: 200px;
+    font-family: 'Coiny', cursive; }
+
+.carousel-caption h1 {
+  text-transform: uppercase;
+  animation-delay: 1.5s;
+  color: white;
+  /* background-color: black*/
+  /* #2a41a5a4*/ }
+
+.carousel-caption h2 {
+  animation-delay: 2s;
+  color: white; }
+
+.single-section2 {
+  position: relative;
+  overflow: hidden; }
+  .single-section2 img {
+    transition: all .5s; }
+  .single-section2 .section2-text {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.521);
+    transform: translateY(100%);
+    transition: all .5s ease-out; }
+    .single-section2 .section2-text p {
+      text-align: justify;
+      color: white; }
+
+.single-section2:hover .section2-text {
+  transform: translateY(0%); }
+
+.single-section2:hover img {
+  transform: scale(1.2); }
+
+#section2AndSection3 {
+  position: relative;
+  background-image: url(../img/k4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.ab h1, .aboutSections .about-grid {
+  text-align: center; }
+
+.ab {
+  margin-top: 80px; }
+  .ab h1 {
+    color: #ff4f81;
+    margin-bottom: 15px;
+    font-size: 40px; }
+
+.aboutSections .ctrl1 {
+  background: #146eb4; }
+.aboutSections .ctrl2 {
+  background: #2bded5; }
+.aboutSections .ctrl3 {
+  background: #4398e7; }
+.aboutSections .about-grid {
+  padding: 30px;
+  transition: .5s all; }
+  .aboutSections .about-grid h4 {
+    color: #ff4f81;
+    font-weight: bold; }
+  .aboutSections .about-grid p {
+    padding: 0;
+    color: #fff;
+    margin-bottom: 25px; }
+  .aboutSections .about-grid i {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px; }
+  .aboutSections .about-grid i:hover {
+    color: #000; }
+
+.about-grid:hover {
+  box-shadow: 2px 15px 70px 2px rgba(0, 0, 0, 0.75); }
+
+@media (max-width: 768px) {
+  .about p {
+    padding: 10px, 10px, 0px; } }
+#navp {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 10px; }
+
+#navp:hover {
+  color: #5188f0; }
+
+/*# sourceMappingURL=style.css.map */
